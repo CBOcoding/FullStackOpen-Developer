@@ -1,54 +1,53 @@
 p {
-	/* color: red; */
+	color: red;
+}
 
-	html {
-		/* px means "pixels". The base font size is now 10 pixels high */
-		font-size: 10px;
-		/* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
-		/* font-family: PLACEHOLDER; */
-		font-family: "Playwrite US Trad Guides", cursive;
-		font-weight: 400;
-		font-style: normal;
-	}
+html {
+	/* px means "pixels". The base font size is now 10 pixels high */
+	font-size: 10px;
+	/* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+	/* font-family: PLACEHOLDER; */
+	font-family: "Playwrite US Trad Guides", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
 
-	h1 {
-		font-size: 60px;
-		text-align: center;
-	}
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
 
-	p,
-	li {
-		font-size: 16px;
-		line-height: 2;
-		letter-spacing: 1px;
-	}
+p,
+li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
 
-	/* This rule sets a background color for the entire page. */
-	html {
-		background-color: #00539f;
-	}
+/* This rule sets a background color for the entire page. */
+html {
+	background-color: #00539f;
+}
 
-	/* Sets new values for several properties of the <body> element. */
-	body {
-		width: 600px;
-		margin: 0 auto;
-		background-color: #ff9500;
-		padding: 0 20px 20px 20px;
-		border: 5px solid black;
-	}
+/* Sets new values for several properties of the <body> element. */
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #ff9500;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
 
-	/* To eliminate the gap, let's overwrite the browser's default styling with the setting margin: 0;. */
-	h1 {
-		margin: 0;
-		padding: 20px 0;
-		color: #00539f;
-		text-shadow: 3px 3px 1px black;
-	}
+/* To eliminate the gap, let's overwrite the browser's default styling with the setting margin: 0;. */
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	color: #00539f;
+	text-shadow: 3px 3px 1px black;
+}
 
-	img {
-		display: block;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
 }
